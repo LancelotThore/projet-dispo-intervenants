@@ -1,6 +1,6 @@
 ### Description
-    Projet étudiant réalisé durant ma 3ème année de BUT MMI (Métiers du Multimédia et de l'Internet) à l'Université de Limoges.
-    Gestion des disponibilités des intervenants à l'Université.
+    Projet étudiant réalisé durant ma 3ème année de BUT MMI (Métiers du Multimédia et de l'Internet)
+    à l'Université de Limoges. Gestion des disponibilités des intervenants à l'Université.
 
 ## 20/12/2024
     - Itération 13 : Ajouter une disponibilité
