@@ -69,13 +69,13 @@ Le développement du projet a été réalisé de manière **itérative**.
 
 ### Environnement
 - Docker
-- Docker Compose
 
 # 🚀 Lancer le projet
 
 ## Prérequis
 
 * Docker
+* Docker Compose
 
 ## ⚙️ Installation
 
