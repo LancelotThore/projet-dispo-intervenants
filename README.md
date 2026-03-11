@@ -76,7 +76,6 @@ Le développement du projet a été réalisé de manière **itérative**.
 ## Prérequis
 
 * Docker
-* Docker Compose
 
 ## ⚙️ Installation
 
@@ -84,6 +83,9 @@ Le développement du projet a été réalisé de manière **itérative**.
 
 ```bash
 git clone https://github.com/LancelotThore/projet-dispo-intervenants.git
+```
+
+```bash
 cd projet-dispo-intervenants
 ```
 
