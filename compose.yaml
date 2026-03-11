@@ -21,7 +21,7 @@ services:
         condition: service_healthy
 
   db:
-    image: postgres
+    image: postgres:17
     container_name: postgres_container
     restart: always
     environment:
@@ -32,7 +32,7 @@ services:
       - 5432:5432
     volumes:
       - db-data:/var/lib/postgresql/data
-      - ./init.sql:/docker-entrypoint-initdb.d/init.sql 
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
     networks:
       - app_network
     healthcheck:
@@ -52,6 +52,7 @@ services:
       - 8080:80
     volumes:
       - pgadmin-data:/var/lib/pgadmin
+      - ./pgadmin-servers.json:/pgadmin4/servers.json:ro
     networks:
       - app_network
 
